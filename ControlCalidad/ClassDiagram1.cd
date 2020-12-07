@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioColores" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAABAAAIAA=</HashCode>
+      <FileName>Datos\RepositorioColores.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="_colores" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.203" />
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioEmpleados" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAABAAAIAA=</HashCode>
+      <FileName>Datos\RepositorioEmpleados.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="_empleados" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioHora">
+    <Position X="11.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Datos\RepositorioHora.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioLineasDeTrabajo" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAIAA=</HashCode>
+      <FileName>Datos\RepositorioLineasDeTrabajo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_lineas" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioModelos" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABIAAIAA=</HashCode>
+      <FileName>Datos\RepositorioModelos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_modelos" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioOP" BaseTypeListCollapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQEBAAAAAAgAIAkAAEAAAAAAAAAAAAoEAAABAACIAw=</HashCode>
+      <FileName>Datos\RepositorioOP.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_ops" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioSesiones" BaseTypeListCollapsed="true">
+    <Position X="8" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEAIAAAgAAAAAAAAAAABAAAIAA=</HashCode>
+      <FileName>Datos\RepositorioSesiones.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="_sesiones" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioTiposDefecto" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABBAAIAA=</HashCode>
+      <FileName>Datos\RepositorioTiposDefecto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_tiposdefecto" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioTurnos" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAABAAAIAA=</HashCode>
+      <FileName>Datos\RepositorioTurnos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_turnos" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Datos.RepositorioUsuarios" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAAAAAAIAEAAAAAAAAAAAAAAAAABAAAIAA=</HashCode>
+      <FileName>Datos\RepositorioUsuarios.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="_usuarios" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Gestores.GestorAutenticar">
+    <Position X="22.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAQAAAAAAQ=</HashCode>
+      <FileName>Gestores\GestorAutenticar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_presentador" />
+      <Property Name="_sesion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Gestores.GestorCargarHermanado">
+    <Position X="17.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAQ=</HashCode>
+      <FileName>Gestores\GestorCargarHermanado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_presentador" />
+      <Property Name="OP" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Gestores.GestorIniciarOP">
+    <Position X="24.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAABAAAAAAAAQAAAAAAAQAAAAAAAACAAQ=</HashCode>
+      <FileName>Gestores\GestorIniciarOP.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_presentador" />
+      <Property Name="Supervisor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Gestores.GestorListaOPSupCalidad">
+    <Position X="22.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAQAIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAQ=</HashCode>
+      <FileName>Gestores\GestorListaOPSupCalidad.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_presentador" />
+      <Property Name="Supervisor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Gestores.GestorListaOPSupLinea">
+    <Position X="22.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAABISAAAAAAAAAAAAAAAEAAIAAAAAAAAAAQ=</HashCode>
+      <FileName>Gestores\GestorListaOPSupLinea.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_presentador" />
+      <Property Name="Supervisor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Gestores.GestorPrincipal">
+    <Position X="22.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAQ=</HashCode>
+      <FileName>Gestores\GestorPrincipal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_presentador" />
+      <Property Name="Sesion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Gestores.GestorRegistrarInspeccion">
+    <Position X="22.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAACAAAAAAAAAAAAAAACAAAEAABAAAAAAABEAQ=</HashCode>
+      <FileName>Gestores\GestorRegistrarInspeccion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_presentador" />
+      <Property Name="Inspeccion" />
+      <Property Name="OP" />
+      <Property Name="Supervisor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Gestores.GestorVisualizarInformacion">
+    <Position X="19.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAACAAAAAAoAAAAAACAAAQ=</HashCode>
+      <FileName>Gestores\GestorVisualizarInformacion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_presentador" />
+      <Property Name="OP" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.Defecto">
+    <Position X="12.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Modelo\Defecto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pie" />
+      <Property Name="TipoDefecto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.Color">
+    <Position X="11.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Color.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.Empleado">
+    <Position X="17.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAgAAAACAAAAADAAAEAAAAAAA=</HashCode>
+      <FileName>Modelo\Empleado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cargo" />
+      <Property Name="Usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.LineaTrabajo">
+    <Position X="17.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modelo\LineaTrabajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.Inspeccion">
+    <Position X="12.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAIAABAAA=</HashCode>
+      <FileName>Modelo\Inspeccion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListaDefectos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.Modelo">
+    <Position X="11.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAEAABAAA=</HashCode>
+      <FileName>Modelo\Modelo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.OP">
+    <Position X="14.75" Y="11.5" Width="1.5" />
+    <AssociationLine Name="Supervisor" Type="TP1_ElControlDeCalidad.Modelo.Empleado" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.844" Y="14.401" />
+        <Point X="15.844" Y="14.776" />
+        <Point X="18.125" Y="14.776" />
+        <Point X="18.125" Y="15.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAgCAAAAAAAAgAggABAAAQAAAAgAAgAgCABAAg=</HashCode>
+      <FileName>Modelo\OP.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Color" />
+      <Property Name="Estado" />
+      <Property Name="Linea" />
+      <Property Name="Modelo" />
+      <Property Name="Supervisor" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListaPeriodos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.Periodo">
+    <Position X="14.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAQAAAACAAAAAAABAAAAAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Modelo\Periodo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Supervisor" />
+      <Property Name="Turno" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListaInspeecciones" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.Sesion">
+    <Position X="19.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAACAAAAAAAAAAAAAAAAgAAAAAIAAAAA=</HashCode>
+      <FileName>Modelo\Sesion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.TipoDefecto">
+    <Position X="12.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Modelo\TipoDefecto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tipo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.Turno">
+    <Position X="15" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAIBAAAA=</HashCode>
+      <FileName>Modelo\Turno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Modelo.Usuario">
+    <Position X="17.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAQAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Empleado" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorAutenticar">
+    <Position X="25.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Presentadores\PresentadorAutenticar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gestor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorCargarHermanado">
+    <Position X="17.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAFIAAAAAAAAAAAAAAAABIAAAAAAAAAAA=</HashCode>
+      <FileName>Presentadores\PresentadorCargarHermanado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gestor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorColor">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIEAAAAAAAAABAAAAAAAAIAAAABAAAAAA=</HashCode>
+      <FileName>Presentadores\PresentadorColor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_color" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorListaColores">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAAAAAAAAABAAAAAAAAIAAAAAAAQAAA=</HashCode>
+      <FileName>Presentadores\PresentadorListaColores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorIniciarOP">
+    <Position X="27.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEIAAAAAAAASAAAAQAAAIQAAAAAAAABA=</HashCode>
+      <FileName>Presentadores\PresentadorIniciarOP.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gestor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorListaModelos">
+    <Position X="13.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAAAAAAAAABAAAAAAAAIAAAAAAAQAAA=</HashCode>
+      <FileName>Presentadores\PresentadorListaModelos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorListaOPSupCalidad">
+    <Position X="25.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACQAAEIAAAEAAAAQAAAAAAABIQAAAEAAAAAA=</HashCode>
+      <FileName>Presentadores\PresentadorListaOPSupCalidad.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gestor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorListaOpSupLinea">
+    <Position X="25.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAWIAAAAAAAAQAAAAAGAAIQAAAIAAAAAA=</HashCode>
+      <FileName>Presentadores\PresentadorListaOpSupLinea.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gestor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorModelo">
+    <Position X="13.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAUAAAAAAAAABAAAAAAAAIAAAABAAAAAA=</HashCode>
+      <FileName>Presentadores\PresentadorModelo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_modelo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorPrincipal">
+    <Position X="25.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEIAAEAAAAAIAAQAAAAAQAAAACAAABAA=</HashCode>
+      <FileName>Presentadores\PresentadorPrincipal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gestor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorRegistrarInspeccion">
+    <Position X="25.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAEIAAAACAAAQAAAAAAAAJQAAAAAgBAAA=</HashCode>
+      <FileName>Presentadores\PresentadorRegistrarInspeccion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gestor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TP1_ElControlDeCalidad.Presentadores.PresentadorVisualizarInformacion">
+    <Position X="19.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEIAAAAAAAAQAAAAAAAAIAAAAAACAAAA=</HashCode>
+      <FileName>Presentadores\PresentadorVisualizarInformacion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gestor" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="TP1_ElControlDeCalidad.Datos.IRepositorio&lt;R&gt;">
+    <Position X="3.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAIAA=</HashCode>
+      <FileName>Datos\IRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TP1_ElControlDeCalidad.Modelo.Cargo">
+    <Position X="19.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TP1_ElControlDeCalidad.Modelo.Estado">
+    <Position X="17.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Modelo\Estado.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TP1_ElControlDeCalidad.Modelo.Pie">
+    <Position X="9.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Pie.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TP1_ElControlDeCalidad.Modelo.TipoClaseDefecto">
+    <Position X="12.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Modelo\TipoClaseDefecto.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
